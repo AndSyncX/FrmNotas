@@ -35,7 +35,7 @@ namespace FrmNotas
             lstNota3.Items.RemoveAt(indice);
             lstPromedio.Items.RemoveAt(indice);
 
-            int total = 0;
+            int total = 1;
             for (int i = 0; i < lstPromedio.Items.Count; i++)
             {
                 total += Convert.ToInt32(lstPromedio.Items[i]);
